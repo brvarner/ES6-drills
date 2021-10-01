@@ -23,7 +23,7 @@ let doMath = (x, y) => {
 let exResult = x ** y
 let addResult = x + y
 function results () {
-    console.log(`The exponent result for 7 and 5 is ${exResult} and the addition result is ${addResult}.`)
+    console.log(`The exponent result for ${x} and ${y} is ${exResult} and the addition result is ${addResult}.`)
 }
 results()
 };
